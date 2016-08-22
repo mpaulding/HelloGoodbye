@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Hello Goodbye</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="exclamation_button">Exclamation!</string>
+    <string name="hello">Hello</string>
+    <string name="goodbye">Goodbye</string>
+    <string name="exclamation_image">Girl with hands under her chin and question mark above her head</string>
+</resources>
