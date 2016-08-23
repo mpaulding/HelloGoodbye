@@ -7,8 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="edu.orangecoastcollege.cs273.mpaulding.hellogoodbye.MainActivity"
-    android:background="@drawable/background">
+    tools:context="edu.orangecoastcollege.cs273.mpaulding.hellogoodbye.MainActivity">
 
 
     <TextView
@@ -16,7 +15,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/hello"
-        android:id="@+id/textView"
+        android:id="@+id/greetingTextView"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:textColor="@color/dustyRose"
@@ -25,7 +24,7 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView"
+        android:id="@+id/exclamationImageView"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:src="@drawable/greetimage"
@@ -34,10 +33,11 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/exclamation_button"
+        android:text="New Button"
         android:id="@+id/button"
-        android:layout_marginBottom="32dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
         android:background="@drawable/exclamationbtn" />
+
 </RelativeLayout>
